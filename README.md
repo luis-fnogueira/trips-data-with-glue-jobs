@@ -1,4 +1,4 @@
-# 1. Glue job with Terraform
+# 1. Glue Job with Terraform
 
 The idea of this project is to get files from an S3 bucket, transform it in some way and make it available in another bucket to be analysed using Athena or stored in a Data Warehouse (Redshift) using the [COPY](https://docs.aws.amazon.com/redshift/latest/dg/r_COPY.html) command.
 
