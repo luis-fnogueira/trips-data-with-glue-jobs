@@ -5,7 +5,6 @@ resource "aws_s3_bucket" "source-bucket" {
 
 resource "aws_s3_bucket" "type-of-license-bucket" {
   bucket = "903442739132-type-of-license-bucket/"
-
 }
 
 resource "aws_s3_bucket" "trips-not-shared-bucket" {
@@ -16,3 +15,6 @@ resource "aws_s3_bucket" "trips-more-than-10-dollars-bucket" {
   bucket = "903442739132-trips-more-than-10-dollars-bucket/"
 }
 
+resource "aws_s3_bucket" "notebooks-source" {
+  bucket = "903442739132-notebooks-source/"
+}
